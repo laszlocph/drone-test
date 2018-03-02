@@ -1,0 +1,6 @@
+pipelines:
+  step-one:
+    image: debian:stable-slim
+    commands:
+      - echo "Hello"
+
