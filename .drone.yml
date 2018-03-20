@@ -7,3 +7,4 @@ pipeline:
     image: debian
     commands:
       - echo $DRONE_COMMIT_SHA
+      - echo $DRONE_BRANCH
