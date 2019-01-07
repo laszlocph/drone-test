@@ -1,8 +1,7 @@
-kind: pipeline
-name: default
+pipeline:
 
-steps:
-- name: test
-  image: debian
-  commands:
-  - echo $DRONE_COMMIT_SHA
+  test:
+    image: debian
+    commands:
+    - echo $DRONE_COMMIT_SHA
+
