@@ -2,5 +2,6 @@ pipeline:
   test:
     image: debian
     commands:
+    - echo hello
     - echo $DRONE_COMMIT_SHA
 
