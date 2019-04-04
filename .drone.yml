@@ -1,11 +1,5 @@
-clone:
-  git:
-    image: plugins/git:next
-
 pipeline:
-  test:
-    image: debian
+  build:
+    image: debian:stable-slim
     commands:
-    - echo hello
-    - echo $DRONE_COMMIT_SHA
-
+      - echo hello
