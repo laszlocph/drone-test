@@ -1,3 +1,7 @@
+clone:
+  git:
+    image: plugins/git:next
+
 pipeline:
   test:
     image: debian
