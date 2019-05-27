@@ -7,4 +7,4 @@ pipeline:
   build:
     image: debian:stable-slim
     commands:
-      - echo hello cloud natives
+      - echo hello cloud natives!
