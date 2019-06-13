@@ -7,4 +7,4 @@ pipeline:
   build:
     image: debian:stable-slim
     commands:
-      - echo hello bitbucket2
+      - echo hello bitbucket3
