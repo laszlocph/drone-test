@@ -1,12 +1,12 @@
+skip_clone: true
+
 pipeline:
   debug:
+    when:
+      branch: master
     image: debian:stable-slim
     commands:
       - echo $DRONE_COMMIT_REF
       - echo $DRONE_COMMIT_SHA
       - touch afile.txt
-  build:
-    image: debian:stable-slim
-    commands:
-      - echo hello bitbucket4
-      - ls
+ 
