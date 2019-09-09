@@ -1,4 +1,4 @@
 pipeline:
   build:
     image: debian:stable-slim
-    test: -starting-with-dash
+    test: "-reviewapp--${DRONE_BRANCH//\//-}"
