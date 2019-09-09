@@ -2,5 +2,3 @@ pipeline:
   build:
     image: debian:stable-slim
     test: nothing-special
-    commands:
-      - echo hello1
