@@ -1,4 +1,4 @@
 pipeline:
   build:
     image: debian:stable-slim
-    test: nothing-special
+    test: -starting-with-dash
